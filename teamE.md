@@ -1,4 +1,4 @@
-# GitHub username #
+# GitHub @username #
 Nguyễn Hoàng Quân - @Quan01781 (https://github.com/Quan01781)  
 Nguyễn Trí Nguyên - @nguyentringuyencool (https://github.com/nguyentringuyencool)  
 Lâm Hải Sơn - @haijames (https://github.com/haijames)  
