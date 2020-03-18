@@ -1,6 +1,15 @@
 ![vgulogo](https://github.com/nguyentringuyencool/Images/blob/master/vgulogo.png)
 # **Homework 1**
 ## **TeamE**
-1. "If there are past booking pending of payment, no booking in advance is allowed": we want to ask if the phrase ***past booking*** means the previous booking or the current booking. For example, if we want to book 2 courts at the same time, and we have not paid for the first booking yet so we can not book the second court. Is that true? @yadsendew
-2. The initial requirement said that one user can book maximum three courts in advance but no advance booking is allowed when there is any pending of payment. So we want to ask what will happen if a user want to book three courts at three different sport centers.
+### **General Information** ###
+1. The initial requirement said that one user can book maximum three courts in advance but no advance booking is allowed when there is any pending of payment. So we want to ask what will happen if a user want to book three courts at three different sport centers.
 @son
+2. Multiple users are booking at the same time. What if they both choose the same court at the same time slot or the time slots are intersected with each other?
+3. What to do if users want to cancel their booking within 24 hours before the booking-start time? Will they be fined for that
+4. What to do if there are many free time slot between the booking times for 1 court? For ex: their are booking from 8am to 9am and 10am to 11am, will the system recommend or ask the user to choose that free time slot if their booking time is at most 1 hour?
+5. If past booking pending is available, will that mean the user can play in the court without paying at at the court?
+6. Court starts from 7am to 9pm, what happens if a user want to book a court from 8:30pm for 1 hour?
+7. What do the users have to do if they want to book more than 3 courts, is offline booking available for that?
+### **Main functionality** ###
+8. How many courts should 1 staff in charge of?
+9. The staff can change the state of booking (from unpaid to paid). What does it mean when changing from paid to unpaid? Is that mean when the user has finished using the court in the booking time?
