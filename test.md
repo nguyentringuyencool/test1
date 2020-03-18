@@ -1,2 +1,7 @@
-#**Homework 1**#
-##**TeamE**##
+#**Homework 1**
+##**TeamE**
+```
+if (isawesome){
+  return true
+  }
+```
