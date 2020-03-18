@@ -12,4 +12,3 @@
 ### **Main functionality** ###
 8. How many courts should one staff in charge of?
 9. The staff can change the state of booking (from unpaid to paid). What does it mean when changing from paid to unpaid? Is that mean when the user has finished using the court in the booking time?
-......................................................................................................................................................................
