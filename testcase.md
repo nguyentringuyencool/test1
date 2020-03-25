@@ -27,16 +27,19 @@ message 'Please select another date'
 test case:
 - callerId, Input bookingId, >24 hours before start time: cancelBooking success  
 - callerId, Input bookingId, <24 hours before start time: refuse cancelBooking and return message 'It's too late, babe'  
+- callerId, wrong Input booking Id, ><24 before start time: server returns 'No result is found' and refuses cancelBooking  
 - wrong/no callerId, Input booking Id, ><24 before start time: refuse cancelBooking  
 
 ### _getBookingInfo_  
 test case:  
 - callerId, Input bookingId: server returns all booking's infomation: cityId, venueId, courtId, day, start, end, playerId, statusId  
+- callerId, wrong Input bookingId: server returns 'no result is found'  
 - wrong/no callerId, Input booking Id: server returns 'no result is found'  
 
 ### _updateBookingPaymentStatus_  
 test case:  
-- callerId, bookingId: update the booking's payment status  
+- callerId, Input bookingId: update the booking's payment status  
+- callerId, wrong Input bookingId: server returns 'no result is found'
 - wrong/no callerId, bookingId: server returns 'no result is found'  
 
 ### _getNameCity/getNameVenue/getNameCourt/getNameUser_  
