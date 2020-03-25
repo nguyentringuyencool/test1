@@ -39,7 +39,7 @@ test case:
 - callerId, bookingId: update the booking's payment status  
 - wrong/no callerId, bookingId: server returns 'no result is found'  
 
-## _getNameCity/getNameVenue/getNameCourt/getNameUser_  
+### _getNameCity/getNameVenue/getNameCourt/getNameUser_  
 test case:  
 - for cityId/venueId/courtId/userId: display corresponding name  
 - for cityId/venueId/courtId/userId: display cityId/venueId/courtId/userId  
