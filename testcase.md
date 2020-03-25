@@ -5,6 +5,6 @@ test case:
 
 ### _getPlayerBookings_  
 test case:  
-- callerId, Input date, City, PlayerId: server returns list of all player bookings (courtID, startHour, endHour, venueID, centreID)
-- wrong/no callerId, Input date, City, PlayerID: server returns 'no result is found'
-- callerId, wrong Input data/City/PlayerId: server returns 'no result is found'
+- callerId, Input date, City, PlayerId: server returns list of all player bookings (courtID, startHour, endHour, venueID, centreID)  
+- callerId, wrong Input data/City/PlayerId: server returns 'no result is found'  
+- wrong/no callerId, Input date, City, PlayerID: server returns 'no result is found'  
