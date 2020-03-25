@@ -5,4 +5,4 @@ test case:
 
 ###getPlayerBookings_  
 test case:  
-- Input date, City, PlayerID: server returns list of all player bookings (courtID, startHour, endHour, venueID, centreID)
+- callerId, Input date, City, PlayerID: server returns list of all player bookings (courtID, startHour, endHour, venueID, centreID)
