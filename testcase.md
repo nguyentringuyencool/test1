@@ -22,4 +22,4 @@ test case:
 ### _getCreateBooking
 test case:
 - callerId, Input day/ courtId/ start time/ end time: server return the information of booking 
-- wrong/ no callerId, Input day/ courtId/ start time/ end time: server return nothing because if the court created booking is the same with the pending booking of another user
+- wrong/ no callerId, Input day/ courtId/ start time/ end time: server return nothing because if the court of created booking is the same with the pending booking of another user
