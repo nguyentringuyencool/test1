@@ -11,5 +11,11 @@ test case:
 
 ### _getVenueBooking
 test case:
-- callerId, retrive day/courtId/name Courtld: server return the information of the venue
-- wrong/ no callerId, retrieve day/courtId/name CourtId: server 
+- callerId, Input day/courtId/name Courtld: server return the information of the venue
+- wrong/ no callerId, Input day/courtId/name CourtId: server return nothing or may return the Venue Booking of the others
+
+### _getPlayerBooking
+test case:
+- callerId, Input day/cityId/playerId
+-wrong/ no callerId, Input day/cityId/playerId: server return the day which has been booking or the same name of other users
+
