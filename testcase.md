@@ -1,4 +1,4 @@
-### _getAvailableSlots_  
+```### _getAvailableSlots_  
 test case:  
 - Input date and city: server returns list of available slots  
 - No response: User chooses date and city but there is no result return from the server  
@@ -46,3 +46,4 @@ test case:
 test case:  
 - for cityId/venueId/courtId/userId: display corresponding name  
 - for cityId/venueId/courtId/userId: display cityId/venueId/courtId/userId  
+```
